@@ -18,7 +18,7 @@ def api_endpoint(request):
         "current_day": current_day,
         "utc_time": utc_time,
         "track": track,
-        "github_file_url": "github.com/Paschal-ike/projectZ/tree/main/myproject",
+        "github_file_url": "https://github.com/Paschal-ike/projectZ/tree/main/myproject",
         "github_repo_url": "https://github.com/Paschal-ike/projectZ.git",
         "status_code": 200
     }
