@@ -4,7 +4,7 @@ from django.utils import timezone
 def api_endpoint(request):
     
     slack_name = request.GET.get('slack_name', 'Paschal Johnpaul')
-    track = request.GET.get('track', 'Backend')
+    track = request.GET.get('track', 'backend')
 
     # current day of the week
     current_day = timezone.now().strftime("%A")
